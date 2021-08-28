@@ -14,7 +14,7 @@ function Gif({
         <div className={`'gif__container' ${className} `}>
             <h1 className="gif__title">¡Inspirate y busca los mejores <strong>GIFS!</strong></h1>
             <img className="gif__img" src={friendlyImage} alt="Friendly image" />
-            <Search />
+            <Search className=""/>
             <h2 className='gif__title--subtitle'>Realiza tu busqueda</h2>
         </div>
     )
