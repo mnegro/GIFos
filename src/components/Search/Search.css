@@ -1,0 +1,13 @@
+.search__container{
+    display: flex;
+}
+.search__input{
+    width: 490px;
+    height: 52px;
+    border-radius: 61px 0px 0px 61px;
+    border: 1px solid #121212;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}

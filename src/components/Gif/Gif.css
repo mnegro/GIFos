@@ -1,0 +1,12 @@
+.gif--container{
+    display: flex;
+    width: 32%;
+    height: 250px;
+}
+
+.gif--img{
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+    flex-grow: 1;
+}

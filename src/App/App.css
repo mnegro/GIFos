@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/Roboto/Roboto-Light.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.App {
+ display: flex;
+ flex-direction: column;
+ border-top: 7px solid rgb(97, 31, 219);
+ width: 100vw;
+ align-items: center;
+ height: 100%;
+}
+
+.App.dark {
+  background-color: rgb(49, 49, 49);
+}

@@ -1,0 +1,13 @@
+.result__container{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(233, 231, 231);
+}
+
+.result__container.dark {
+    background-color: rgb(41, 39, 39);
+}

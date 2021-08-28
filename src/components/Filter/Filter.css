@@ -1,0 +1,24 @@
+.gif__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gif__title{
+    color: rgb(97, 31, 219);
+    text-align: center;
+}
+.gif__img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.gif__title--subtitle{
+    color: rgb(97, 31, 219);
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25px;
+}
+.dark .gif__title,
+.dark .gif__title--subtitle{
+    color: white;
+}
