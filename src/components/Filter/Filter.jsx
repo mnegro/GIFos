@@ -10,11 +10,12 @@ import Search from '../Search/Search';
 function Gif({
     className
 }){
+    
     return(
         <div className={`'gif__container' ${className} `}>
             <h1 className="gif__title">¡Inspirate y busca los mejores <strong>GIFS!</strong></h1>
             <img className="gif__img" src={friendlyImage} alt="Friendly image" />
-            <Search className=""/>
+            <Search className={`${className}`}/>
             <h2 className='gif__title--subtitle'>Realiza tu busqueda</h2>
         </div>
     )

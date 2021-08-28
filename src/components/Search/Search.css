@@ -11,3 +11,8 @@
     font-weight: bold;
     padding: 15px;
 }
+
+.search__input.dark{
+    border: 1px solid white;
+    background-color: rgb(49, 49, 49);
+}

@@ -1,5 +1,6 @@
 import Button from '../Button/Button'
 import  Logo from '../../assets/logo-desktop.svg';
+import LogoNoc from '../../assets/logo-mobile-modo-noct.svg';
 import './Header.css'
 
 function Header ({
@@ -8,7 +9,7 @@ function Header ({
 }){
     return (
           <div className="header">
-            <img src= {Logo} alt="Logo Gifos" />
+            <img src={`${isDark? `${LogoNoc}` : `${Logo}`}`} alt="Logo Gifos" />
 
             <Button 
                 isDark={isDark}

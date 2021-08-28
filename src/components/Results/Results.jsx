@@ -7,7 +7,6 @@ function Results ({
     className,
     data
 }){
-    console.log(className);
     return(
        <section className={`result__container ${className? `${className} `: ''}`}>
            {(data || []).map(item =>{
